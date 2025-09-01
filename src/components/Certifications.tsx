@@ -16,14 +16,14 @@ const Certifications = () => {
     issuer: 'OMNES Education - Datascientest',
     date: '2025',
     description: 'Python appliqué à la data science',
-    image: '/public/images/Diplome_Python_techaway_DataSientest.png',
+    image: '/images/Diplome_Python_techaway_DataSientest.png',
     file: '/public/certifs/Diplome Ross Gildas KETCHA - Python for DS.pdf'
   }, {
     title: 'Commencer à créer avec Power BI _ Microsoft Learn',
     issuer: 'Microsoft',
     date: '2025',
     description: 'Création de rapports avec Power BI',
-    image: '/public/images/Commencer à créer avec Power Bi.png',
+    image: '/images/Commencer à créer avec Power Bi.png',
     file: '/public/certifs/Commencer à créer avec Power BI _ Microsoft Learn.pdf'
   }, {
     title: 'Découvrir les fonctionnalités de Microsoft Power BI',
