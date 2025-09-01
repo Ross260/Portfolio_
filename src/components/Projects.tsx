@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: 'RetinaML : Prédiction de maladies oculaires Assistée par IA',
       description: "Plateforme de collecte d'image de rétine pour la prédiction de rétinopathie diabétique.",
-      image1: '/images/RetinaML.png',
+      image1: '/images/retinaml.png',
       image2: "/images/diagnostic.png",
       tags: ['React', 'TypeScript','Express.js', 'Python', 'Scikit-Learn', 'TensorFlow'],
       github: 'https://github.com/Ross260/eyes_ML',
