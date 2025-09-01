@@ -51,7 +51,7 @@ const Certifications = () => {
     issuer: 'DataSeientest',
     date: '2024',
     description: 'Python appliqué à la data science',
-    image: '/images/Python_pour_la_Data_Science.png',
+    image: '/images/Python_pour_la_data_science.png',
     file: '/certifs/Examen Final Python pour la Data Science.pdf'
   }];
   return <section ref={ref} id="certifications" className={`py-20 bg-background transition-all duration-1000 ${hasIntersected ? 'animate-fade-in' : 'opacity-0 translate-y-10'}`}>
