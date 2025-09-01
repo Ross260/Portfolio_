@@ -54,7 +54,7 @@ const Projects = () => {
       featured: false
     },
     {
-      title: 'Biblothèque en ligne',
+      title: 'Bibliothèque en ligne',
       description: "Application web de gestion de bibliothèque avec emprunts, retours et recherche de livres.",
       image1: '/images/Bibliotheque.png',
       image2: '/images/Bibliotheque.png',

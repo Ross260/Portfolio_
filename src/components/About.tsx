@@ -60,7 +60,7 @@ const About = () => {
             <span className="bg-accent-gradient bg-clip-text text-transparent">À propos de moi</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Etudiant <span className="text-primary font-bold font-semibold">en recherche d'alternance</span>, Je suis passionné par l’univers de la data, 
+            Etudiant <span className="text-primary font-bold font-semibold">en recherche d'alternance</span>, je suis passionné par l’univers de la data, 
             où je combine curiosité analytique et sens pratique pour transformer des données brutes en informations stratégiques.
           </p>
         </div>
