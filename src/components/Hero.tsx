@@ -16,7 +16,7 @@ const Hero = () => {
   // Fonction pour télécharger le CV
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/ALTERNANCE_DATA_ET_IA.pdf";
+    link.href = "/certifs/ALTERNANCE_DATA_ET_IA.pdf";
     link.download = "Ross-Gildas-KETCHA-CV-DATA-&-IA.pdf"; 
     link.click();
   };
