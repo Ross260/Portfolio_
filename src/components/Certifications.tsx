@@ -17,42 +17,42 @@ const Certifications = () => {
     date: '2025',
     description: 'Python appliqué à la data science',
     image: '/images/Diplome_Python_techaway_DataSientest.png',
-    file: '/public/certifs/Diplome Ross Gildas KETCHA - Python for DS.pdf'
+    file: '/certifs/Diplome Ross Gildas KETCHA - Python for DS.pdf'
   }, {
     title: 'Commencer à créer avec Power BI _ Microsoft Learn',
     issuer: 'Microsoft',
     date: '2025',
     description: 'Création de rapports avec Power BI',
     image: '/images/Commencer à créer avec Power Bi.png',
-    file: '/public/certifs/Commencer à créer avec Power BI _ Microsoft Learn.pdf'
+    file: '/certifs/Commencer à créer avec Power BI _ Microsoft Learn.pdf'
   }, {
     title: 'Découvrir les fonctionnalités de Microsoft Power BI',
     issuer: 'Microsoft',
     date: '2025',
     description: 'Acquisition, transformation et visualisation des données',
-    image: '/public/images/Découvrir les fonctionnalités de Microsoft Power BI.png',
-    file: '/public/certifs/Découvrir les fonctionnalités de Microsoft Power BI.pdf'
+    image: '/images/Découvrir les fonctionnalités de Microsoft Power BI.png',
+    file: '/certifs/Découvrir les fonctionnalités de Microsoft Power BI.pdf'
   }, {
     title: 'CertificatDaccomplissement_Decouvrir la data science  Comprendre les bases',
     issuer: 'Linkedin Learning',
     date: '2025',
     description: 'Concepts de base de la data science',
-    image: '/public/images/Base_de_la_data_science.png',
-    file: '/public/certifs/CertificatDaccomplissement_Decouvrir la data science  Comprendre les bases.pdf'
+    image: '/images/Base_de_la_data_science.png',
+    file: '/certifs/CertificatDaccomplissement_Decouvrir la data science  Comprendre les bases.pdf'
   }, {
     title: 'Certificat Daccomplissement_Scikitlearn pour le machine learning',
     issuer: 'Linkedin Learning',
     date: '2025',
     description: 'Scikit-learn · clustering · Apprentissage non supervisé · Apprentissage supervisé',
-    image: '/public/images/Scikitlearn_pour_le_machine_learning.png',
-    file: '/public/certifs/CertificatDaccomplissement_Scikitlearn pour le machine learning.pdf'
+    image: '/images/Scikitlearn_pour_le_machine_learning.png',
+    file: '/certifs/CertificatDaccomplissement_Scikitlearn pour le machine learning.pdf'
   }, {
     title: 'Examen Final Python pour la Data Science',
     issuer: 'DataSeientest',
     date: '2024',
     description: 'Python appliqué à la data science',
-    image: '/public/images/Python_pour_la_Data_Science.png',
-    file: '/public/certifs/Examen Final Python pour la Data Science.pdf'
+    image: '/images/Python_pour_la_Data_Science.png',
+    file: '/certifs/Examen Final Python pour la Data Science.pdf'
   }];
   return <section ref={ref} id="certifications" className={`py-20 bg-background transition-all duration-1000 ${hasIntersected ? 'animate-fade-in' : 'opacity-0 translate-y-10'}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
