@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: 'Dashboard Analytics(en cours)',
       description: 'Tableau de bord interactif pour visualiser des données complexes avec des graphiques dynamiques.',
-      image1: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
+      image1: '/images/tdb.png',
       image2: "/images/Découvrir les fonctionnalités de Microsoft Power BI.png",
       tags: ['Power BI', 'DAX', 'Data Visualization', 'Business Intelligence'],
       github: '#',
