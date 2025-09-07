@@ -146,21 +146,48 @@ const Projects = () => {
                             <h3 className="text-2xl font-bold text-foreground mb-2">{project.title}</h3>
                             <p className="text-muted-foreground">{project.description}</p>
                           </div>
+
                           <div className="grid md:grid-cols-2 gap-4">
-                            <img
-                              src={project.image1}
-                              alt={`Aperçu 1 de ${project.title}`}
-                              className="w-full h-64 object-cover rounded-lg border border-primary/20"
-                            />
-                            <img
-                              src={project.image2}
-                              alt={`Aperçu 2 de ${project.title}`}
-                              className="w-full h-64 object-cover rounded-lg border border-primary/20"
-                            />
+                            {/* Image 1 cliquable pour zoom */}
+                            <Dialog>
+                              <DialogTrigger asChild>
+                                <img
+                                  src={project.image1}
+                                  alt={`Aperçu 1 de ${project.title}`}
+                                  className="w-full h-64 object-contain rounded-lg border border-primary/20 bg-black cursor-pointer hover:opacity-90 transition"
+                                />
+                              </DialogTrigger>
+                              <DialogContent className="max-w-6xl p-0 border-0 bg-transparent">
+                                <img
+                                  src={project.image1}
+                                  alt={`Aperçu 1 de ${project.title}`}
+                                  className="w-full h-auto max-h-[90vh] object-contain rounded-lg"
+                                />
+                              </DialogContent>
+                            </Dialog>
+
+                            {/* Image 2 cliquable pour zoom et visualisation en plus grand et clair */}
+                            <Dialog>
+                              <DialogTrigger asChild>
+                                <img
+                                  src={project.image2}
+                                  alt={`Aperçu 2 de ${project.title}`}
+                                  className="w-full h-64 object-contain rounded-lg border border-primary/20 bg-black cursor-pointer hover:opacity-90 transition"
+                                />
+                              </DialogTrigger>
+                              <DialogContent className="max-w-6xl p-0 border-0 bg-transparent">
+                                <img
+                                  src={project.image2}
+                                  alt={`Aperçu 2 de ${project.title}`}
+                                  className="w-full h-auto max-h-[90vh] object-contain rounded-lg"
+                                />
+                              </DialogContent>
+                            </Dialog>
                           </div>
                         </div>
                       </DialogContent>
                     </Dialog>
+
                   </div>
                 </div>
                 <CardHeader>

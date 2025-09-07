@@ -90,7 +90,7 @@ const Contact = () => {
   }, {
     icon: MapPin,
     label: 'Localisation',
-    value: 'Paris, France',
+    value: 'Paris, île-de-France',
     href: '#'
   }];
   const socialLinks = [{

@@ -81,7 +81,7 @@ const Footer = () => {
             <div className="space-y-2 text-muted-foreground">
               <p>📧 rossketcha@gmail.com</p>
               <p>📱 +33 (0)6 62 02 64 80</p>
-              <p>📍 Paris, France</p>
+              <p>📍 Paris, île-de-France</p>
             </div>
             <Button 
               variant="hero" 
