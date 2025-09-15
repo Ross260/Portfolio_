@@ -12,6 +12,13 @@ const Certifications = () => {
     threshold: 0.1
   });
   const certifications = [{
+    title: 'Obtenire des données avec Power BI',
+    issuer: 'Microsoft Learning',
+    date: '2025',
+    description: 'Résoudre les erreurs d’importation de données, Résoudre les problèmes de performances',
+    image: '/images/Obtenir des données dans Power BI.png',
+    file: '/certifs/Obtenir des données dans Power BI.pdf'
+  }, {
     title: 'Python fundamentals for Data Science',
     issuer: 'OMNES Education - Datascientest',
     date: '2025',
@@ -53,13 +60,6 @@ const Certifications = () => {
     description: 'Python appliqué à la data science',
     image: '/images/Python_pour_la_data_science.png',
     file: '/certifs/Examen Final Python pour la Data Science.pdf'
-  }, {
-    title: 'Obtenire des données avec Power BI',
-    issuer: 'Microsoft Learning',
-    date: '2025',
-    description: 'Résoudre les erreurs d’importation de données, Résoudre les problèmes de performances',
-    image: '/images/Obtenir des données dans Power BI.png',
-    file: '/certifs/Obtenir des données dans Power BI.pdf'
   }];
   return <section ref={ref} id="certifications" className={`py-20 bg-background transition-all duration-1000 ${hasIntersected ? 'animate-fade-in' : 'opacity-0 translate-y-10'}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

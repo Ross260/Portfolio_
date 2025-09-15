@@ -27,7 +27,7 @@ const Projects = () => {
       image1: '/images/tdb.png',
       image2: "/images/Découvrir les fonctionnalités de Microsoft Power BI.png",
       tags: ['Power BI', 'DAX', 'Data Visualization', 'Business Intelligence'],
-      github: '#',
+      github: '#', // Mettre le lien vers le projet publier sur linkedin ici
       demo: '#',
       featured: true
     },
