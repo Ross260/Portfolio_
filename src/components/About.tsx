@@ -127,16 +127,16 @@ const About = () => {
         {/* Stats */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
           <div className="space-y-2">
+            {/* <div className="text-4xl font-bold bg-accent-gradient bg-clip-text text-transparent">100%</div> */}
+            {/* <div className="text-muted-foreground">Satisfaction Client</div> */}
+          </div>
+          <div className="space-y-2">
             <div className="text-4xl font-bold bg-accent-gradient bg-clip-text text-transparent">12+</div>
             <div className="text-muted-foreground">Projets Complétés</div>
           </div>
           <div className="space-y-2">
-            <div className="text-4xl font-bold bg-accent-gradient bg-clip-text text-transparent">4+</div>
-            <div className="text-muted-foreground">Années d'Expérience</div>
-          </div>
-          <div className="space-y-2">
-            <div className="text-4xl font-bold bg-accent-gradient bg-clip-text text-transparent">100%</div>
-            <div className="text-muted-foreground">Satisfaction Client</div>
+            {/* <div className="text-4xl font-bold bg-accent-gradient bg-clip-text text-transparent">4+</div> */}
+            {/* <div className="text-muted-foreground">Années d'Expérience</div> */}
           </div>
         </div>
       </div>

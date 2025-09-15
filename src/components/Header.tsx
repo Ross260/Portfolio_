@@ -42,7 +42,12 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold bg-accent-gradient bg-clip-text text-transparent">
+              <button
+                onClick={() => scrollToSection('hero')}
+                className="text-2xl font-bold bg-accent-gradient bg-clip-text text-transparent focus:outline-none"
+              >
               Ross
+              </button>
             </h1>
           </div>
 
