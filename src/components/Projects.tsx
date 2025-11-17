@@ -22,12 +22,22 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'Dashboard Analytics(en cours)',
-      description: 'Tableau de bord interactif pour visualiser des données complexes avec des graphiques dynamiques.',
-      image1: '/images/tdb.png',
-      image2: "/images/Découvrir les fonctionnalités de Microsoft Power BI.png",
+      title: 'Rapport sur des données financières avec Power BI',
+      description: 'Tableau de bord interactif pour visualiser des données de ventes d\'une entreprise.',
+      image1: '/images/Rapport données financières.png',
+      image2: "/images/Rapport données financières 2.png",
       tags: ['Power BI', 'DAX', 'Data Visualization', 'Business Intelligence'],
       github: '#', // Mettre le lien vers le projet publier sur linkedin ici
+      demo: '#',
+      featured: true
+    },
+    {
+      title: 'Etude sur l\impact des jeux vidéo sur les notes des étudiants',
+      description: 'Suite à cette étude, on peut remarqué qu\'en effet, les jeux vidéos ont un impact réel sur les étudiant. cependant, plusieurs facteurs influences considérablement ce facteur notement l\'éducation et le revenu des parents.',
+      image1: '/images/Impact des jeux vidéos sur les grades des étudiants.png',
+      image2: "/images/Impact des jeux vidéos sur les grades des étudiants 2.png",
+      tags: ['Power BI', 'DAX', 'Data Visualization', 'Business Intelligence'],
+      github: '#', //lien vers le projet publier sur linkedin ici
       demo: '#',
       featured: true
     },
