@@ -32,11 +32,11 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'Etude sur l\impact des jeux vidéo sur les notes des étudiants',
-      description: 'Suite à cette étude, on peut remarqué qu\'en effet, les jeux vidéos ont un impact réel sur les étudiant. cependant, plusieurs facteurs influences considérablement ce facteur notement l\'éducation et le revenu des parents.',
+      title: 'Etude sur l\'impact des jeux vidéos sur les notes des étudiants',
+      description: 'Suite à cette étude sur des données réelles, on peut remarqué qu\'en effet, les jeux vidéos ont un impact réel sur les étudiants. Cependant, plusieurs facteurs influences considérablement ce facteur notement l\'éducation et le revenu des parents.',
       image1: '/images/Impact des jeux vidéos sur les grades des étudiants.png',
       image2: "/images/Impact des jeux vidéos sur les grades des étudiants 2.png",
-      tags: ['Power BI', 'DAX', 'Data Visualization', 'Business Intelligence'],
+      tags: ['Power Query', 'Modélisation', 'Data Visualization','Power BI', 'Business Intelligence'],
       github: '#', //lien vers le projet publier sur linkedin ici
       demo: '#',
       featured: true
