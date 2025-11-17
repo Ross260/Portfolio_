@@ -12,6 +12,34 @@ const Certifications = () => {
     threshold: 0.1
   });
   const certifications = [{
+    title: 'Écrire des formules DAX pour des modèles',
+    issuer: 'Microsoft Learning',
+    date: '2025',
+    description: 'Fonctions DAX, Colonnes calculées, Mesures, Tables calculées avec DAX',
+    image: '/images/Écrire des formules DAX pour des modèles.png',
+    file: '/certifs/Écrire des formules DAX pour des modèles.pdf'
+  },{
+    title: 'Configurer un modèle sémantique',
+    issuer: 'Microsoft Learning',
+    date: '2025',
+    description: 'Catégorisation des données, Hiérarchies, Création de mesures simples et rapides',
+    image: '/images/Configurer un modèle sémantique.png',
+    file: '/certifs/Configurer un modèle sémantique.pdf'
+  },{
+    title: 'Préparer des données à des fins d’analyse avec Power BI',
+    issuer: 'Microsoft Learning',
+    date: '2025',
+    description: 'Modélisation des données, Création de mesures, colonnes et tables calculées',
+    image: '/images/Préparer des données à des fins d’analyse avec Power BI.png',
+    file: '/certifs/Préparer des données à des fins d’analyse avec Power BI.pdf'
+  },{
+    title: 'Nettoyer, transformer et charger des données avec Power BI',
+    issuer: 'Microsoft Learning',
+    date: '2025',
+    description: 'Nettoyage de données avec Power Query, Transformation et chargement dans Power BI Desktop',
+    image: '/images/Nettoyer transformer et charger des données sous Power Bi.png',
+    file: '/certifs/Nettoyer transformer et charger des données avec Power BI.pdf'
+  },{
     title: 'Obtenire des données avec Power BI',
     issuer: 'Microsoft Learning',
     date: '2025',
