@@ -42,6 +42,16 @@ const Projects = () => {
       featured: true
     },
     {
+      title: 'Gestion de projets de conception d\'un site web avec Jira',
+      description: 'Projet de groupe réalisé dans le cadre de la formation, utilisant Jira pour la gestion de projet pour un site web de vente de tiramisu.',
+      image1: "/images/jira2.png",
+      image2: "/images/yoyo.png",
+      tags: ['Power Query', 'Modélisation', 'Data Visualization','Power BI', 'Business Intelligence'],
+      github: '#', //lien vers le projet publier sur linkedin ici
+      demo: '#',
+      featured: true
+    },
+    {
       title: 'Scrapping et analyse d\'un site E-commerce',
       description: 'Extraction brute, nettoyage et analyse des données d\'un site e-commerce pour insights marketing.',
       image1: '/images/scraping.png',
