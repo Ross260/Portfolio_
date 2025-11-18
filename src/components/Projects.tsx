@@ -46,7 +46,7 @@ const Projects = () => {
       description: 'Projet de groupe réalisé dans le cadre de la formation, utilisant Jira pour la gestion de projet pour un site web de vente de tiramisu.',
       image1: "/images/jira2.png",
       image2: "/images/yoyo.png",
-      tags: ['Power Query', 'Modélisation', 'Data Visualization','Power BI', 'Business Intelligence'],
+      tags: ['Jira', 'Gestion de projets', 'SCRUM', 'Agile'],
       github: '#', //lien vers le projet publier sur linkedin ici
       demo: '#',
       featured: true
