@@ -12,6 +12,27 @@ const Certifications = () => {
     threshold: 0.1
   });
   const certifications = [{
+    title: 'Créer des calculs visuels dans Power BI Desktop',
+    issuer: 'Microsoft Learning',
+    date: '2025',
+    description: 'Utilisation des fonctions de comparaison dans des calculs visuels',
+    image: '/images/Créer des calculs visuels dans Power BI Desktop.png',
+    file: '/certifs/Créer des calculs visuels dans Power BI Desktop.pdf'
+  },{
+    title: 'Modifier le contexte de filtre DAX dans des Modèles sémantiques',
+    issuer: 'Microsoft Learning',
+    date: '2025',
+    description: 'Utilisation de la fonction CALCULATE',
+    image: '/images/Modifier le contexte de filtre DAX dans des Modèles sémantiques.png',
+    file: '/certifs/Modifier le contexte de filtre DAX dans des modèles sémantiques.pdf'
+  },{
+    title: 'Utiliser DAX dans des modèles sémantiques',
+    issuer: 'Microsoft Learning',
+    date: '2025',
+    description: 'Module3 d\'achèvement du cours complet à la PL-300',
+    image: '/images/Utiliser DAX dans des modèles sémantiques (Module 3).png',
+    file: '/certifs/Utiliser DAX dans des modèles sémantiques.pdf'
+  },{
     title: 'Écrire des formules DAX pour des modèles',
     issuer: 'Microsoft Learning',
     date: '2025',
