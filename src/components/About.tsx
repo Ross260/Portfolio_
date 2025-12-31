@@ -12,13 +12,13 @@ const About = () => {
     { name: 'PostgreSQL', icon: Database, color: 'text-[#4169E1]' },
     { name: 'MySQL', icon: Database, color: 'text-[#06B6D4]' },
     { name: 'React', icon: Code, color: 'text-[#61DAFB]' },
-    { name: 'TypeScript', icon: FileCode, color: 'text-[#3178C6]' },
+    { name: 'dbt', icon: FileCode, color: 'text-[#3178C6]' },
+    { name: 'Docker', icon: Container, color: 'text-[#2496ED]' },  
+    { name: 'Databricks', icon: Palette, color: 'text-[#F24E1E]' },
     { name: 'Node.js', icon: Server, color: 'text-[#339933]' },
     { name: 'Next.js', icon: Code, color: 'text-foreground' },
     { name: 'MongoDB', icon: Database, color: 'text-[#47A248]' },
-    { name: 'Tailwind CSS', icon: Palette, color: 'text-[#06B6D4]' },
-    // { name: 'Docker', icon: Container, color: 'text-[#2496ED]' },  
-    { name: 'Figma', icon: Palette, color: 'text-[#F24E1E]' }
+    
     
   ];
 
@@ -60,7 +60,7 @@ const About = () => {
             <span className="bg-accent-gradient bg-clip-text text-transparent">À propos de moi</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Etudiant <span className="text-primary font-bold font-semibold">en recherche d'alternance (2 semaines école 3 semaines entreprise)</span>, je suis passionné par l’univers de la data, 
+            Etudiant <span className="text-primary font-bold font-semibold">en recherche d'un Stage à partir d'Avril 2026</span>, je suis passionné par l’univers de la data, 
             où je combine curiosité analytique et sens pratique pour transformer des données brutes en informations stratégiques.
           </p>
         </div>
@@ -72,8 +72,8 @@ const About = () => {
               Collecte, transformation et insights
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Je suis animé par une forte motivation à approfondir mes compétences dans l’apprentissage et la maîtrise des 
-              outils d’analyse de données en insight. 
+              Je suis animé par une forte motivation à approfondir mes compétences dans la maîtrise des 
+              outils d’acquisition de données, mais aussi d'analyse et de transformation de ces donées en décision stratégiques. 
             </p>
             <p className="text-muted-foreground leading-relaxed">
               J’aime explorer chaque étape du cycle de vie de la donnée :
