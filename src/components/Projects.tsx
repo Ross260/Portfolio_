@@ -521,14 +521,14 @@ const Projects = () => {
                         onImageClick={(idx) => openLightbox(getProjectImages(selectedProject), idx)}
                       />
                       <div className="flex justify-center gap-4">
-                        <Button variant="outline" className="border-primary/30" onClick={() => window.open(selectedProject.github, '_blank')}>
+                        {/* <Button variant="outline" className="border-primary/30" onClick={() => window.open(selectedProject.github, '_blank')}>
                           <Github className="h-4 w-4 mr-2" />
                           Voir le code
-                        </Button>
-                        <Button variant="outline" className="border-primary/30" onClick={() => window.open(selectedProject.demo, '_blank')}>
+                        </Button> */}
+                        {/* <Button variant="outline" className="border-primary/30" onClick={() => window.open(selectedProject.demo, '_blank')}>
                           <Eye className="h-4 w-4 mr-2" />
                           Démo
-                        </Button>
+                        </Button> */}
                       </div>
                     </div>
                   )}
