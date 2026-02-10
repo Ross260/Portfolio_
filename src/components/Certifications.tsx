@@ -18,21 +18,32 @@ const Certifications = () => {
     description: 'Utilisation des fonctions de comparaison dans des calculs visuels',
     image: '/images/Créer des calculs visuels dans Power BI Desktop.png',
     file: '/certifs/Créer des calculs visuels dans Power BI Desktop.pdf'
-  },{
-    title: 'Modifier le contexte de filtre DAX dans des Modèles sémantiques',
-    issuer: 'Microsoft Learning',
+  },
+  // ,{
+  //   title: 'Modifier le contexte de filtre DAX dans des Modèles sémantiques',
+  //   issuer: 'Microsoft Learning',
+  //   date: '2025',
+  //   description: 'Utilisation de la fonction CALCULATE',
+  //   image: '/images/Modifier le contexte de filtre DAX dans des Modèles sémantiques.png',
+  //   file: '/certifs/Modifier le contexte de filtre DAX dans des modèles sémantiques.pdf'
+  // }
+  {
+    title: 'Python fundamentals for Data Science',
+    issuer: 'OMNES Education - Datascientest',
     date: '2025',
-    description: 'Utilisation de la fonction CALCULATE',
-    image: '/images/Modifier le contexte de filtre DAX dans des Modèles sémantiques.png',
-    file: '/certifs/Modifier le contexte de filtre DAX dans des modèles sémantiques.pdf'
-  },{
+    description: 'Python appliqué à la data science',
+    image: '/images/Diplome_Python_techaway_DataSientest.png',
+    file: '/certifs/Diplome Ross Gildas KETCHA - Python for DS.pdf'
+  }
+  ,{
     title: 'Utiliser DAX dans des modèles sémantiques',
     issuer: 'Microsoft Learning',
     date: '2025',
     description: 'Module3 d\'achèvement du cours complet à la PL-300',
     image: '/images/Utiliser DAX dans des modèles sémantiques (Module 3).png',
     file: '/certifs/Utiliser DAX dans des modèles sémantiques.pdf'
-  },{
+  },
+  {
     title: 'Écrire des formules DAX pour des modèles',
     issuer: 'Microsoft Learning',
     date: '2025',
@@ -60,21 +71,16 @@ const Certifications = () => {
     description: 'Nettoyage de données avec Power Query, Transformation et chargement dans Power BI Desktop',
     image: '/images/Nettoyer transformer et charger des données sous Power Bi.png',
     file: '/certifs/Nettoyer transformer et charger des données avec Power BI.pdf'
-  },{
-    title: 'Obtenire des données avec Power BI',
-    issuer: 'Microsoft Learning',
-    date: '2025',
-    description: 'Résoudre les erreurs d’importation de données, Résoudre les problèmes de performances',
-    image: '/images/Obtenir des données dans Power BI.png',
-    file: '/certifs/Obtenir des données dans Power BI.pdf'
-  }, {
-    title: 'Python fundamentals for Data Science',
-    issuer: 'OMNES Education - Datascientest',
-    date: '2025',
-    description: 'Python appliqué à la data science',
-    image: '/images/Diplome_Python_techaway_DataSientest.png',
-    file: '/certifs/Diplome Ross Gildas KETCHA - Python for DS.pdf'
-  }, {
+  },
+  // {
+  //   title: 'Obtenire des données avec Power BI',
+  //   issuer: 'Microsoft Learning',
+  //   date: '2025',
+  //   description: 'Résoudre les erreurs d’importation de données, Résoudre les problèmes de performances',
+  //   image: '/images/Obtenir des données dans Power BI.png',
+  //   file: '/certifs/Obtenir des données dans Power BI.pdf'
+  // },
+   {
     title: 'Commencer à créer avec Power BI _ Microsoft Learn',
     issuer: 'Microsoft',
     date: '2025',
