@@ -258,7 +258,7 @@ const Projects = () => {
     
     {
       title: 'Outil de visualisation d\'etat de santé de dataset',
-      description: 'Projet personnel mis en production par un workflow CI/CD otamment grâce à la conteneurisation Docker qui garantit un déploiement fiable, reproductible et cohérent entre les environnements afin de palier aux soucis d\'uniformité des données. https://huggingface.co/spaces/Ross260/FileHealthCheck',
+      description: 'Projet personnel mis en production par un workflow CI/CD notamment grâce à la conteneurisation Docker qui garantit un déploiement fiable, reproductible et cohérent entre les environnements afin de palier aux soucis d\'uniformité des environnements. https://huggingface.co/spaces/Ross260/FileHealthCheck',
       image: "/images/File_Health_Check.png",
       images: ["/images/project_home.png","/images/qualite de remplissage.png"],
       tags: ['Docker', 'Python', 'Cloud', 'CI/CD', 'Hugging Face Space'],
