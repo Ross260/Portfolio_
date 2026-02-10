@@ -255,14 +255,15 @@ const Projects = () => {
   };
 
   const projects: Project[] = [
+    
     {
-      title: 'RetinaML : Prédiction de maladies oculaires Assistée par IA',
-      description: "Plateforme de collecte d'image de rétine pour la prédiction de rétinopathie diabétique.",
-      image: '/images/retinaml.png',
-      images: ['/images/retinaml.png',"/images/diagnostic.png","/images/diagnostic2.png"],
-      tags: ['React', 'TypeScript','Express.js', 'Python', 'Scikit-Learn', 'TensorFlow'],
-      github: 'https://github.com/Ross260/eyes_ML',
-      demo: 'https://vercel.com',
+      title: 'Outil de visualisation d\'etat de santé de dataset',
+      description: 'Projet personnel mis en production par un workflow CI/CD otamment grâce à la conteneurisation Docker qui garantit un déploiement fiable, reproductible et cohérent entre les environnements afin de palier aux soucis d\'uniformité des données. https://huggingface.co/spaces/Ross260/FileHealthCheck',
+      image: "/images/File_Health_Check.png",
+      images: ["/images/project_home.png","/images/qualite de remplissage.png"],
+      tags: ['Docker', 'Python', 'Cloud', 'CI/CD', 'Hugging Face Space'],
+      github: 'https://github.com/Ross260/File_Health_Check',
+      demo: 'https://huggingface.co/spaces/Ross260/FileHealthCheck',
       featured: true
     },
     {
@@ -271,7 +272,7 @@ const Projects = () => {
       image: '/images/Analyse des ventes_.png',
       images: ['/images/Analyse des ventes_.gif'],
       tags: ['Power BI', 'DAX', 'Data Visualization', 'Business Intelligence'],
-      github: '#', // Mettre le lien vers le projet publier sur linkedin ici
+      github: 'https://www.linkedin.com/posts/ross-gildas-ketcha-a39a172b0_powerbi-dataanalysis-dax-activity-7410621807730380800-TNlm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAErmvg0B-zcon8InudejCRDl8NpQ664chuw', // Mettre le lien vers le projet publier sur linkedin ici
       demo: '#',
       featured: true
     },
@@ -283,6 +284,16 @@ const Projects = () => {
       tags: ['Power Query', 'Modélisation', 'Data Visualization','Power BI', 'Business Intelligence'],
       github: '#', //lien vers le projet publier sur linkedin ici
       demo: '#',
+      featured: true
+    },
+    {
+      title: 'RetinaML : Prédiction de maladies oculaires Assistée par IA',
+      description: "Plateforme de collecte d'image de rétine pour la prédiction de rétinopathie diabétique.",
+      image: '/images/retinaml.png',
+      images: ['/images/retinaml.png',"/images/diagnostic.png","/images/diagnostic2.png"],
+      tags: ['React', 'TypeScript','Express.js', 'Python', 'Scikit-Learn', 'TensorFlow'],
+      github: 'https://github.com/Ross260/eyes_ML',
+      demo: 'https://vercel.com',
       featured: true
     },
     {
