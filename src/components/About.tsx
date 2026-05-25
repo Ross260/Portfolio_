@@ -25,6 +25,11 @@ const About = () => {
   const features = [
     
     {
+      icon: Code,
+      title: 'Engénierie de Données',
+      description: 'Conception et optimisation de pipelines de données robustes pour transformer des données brutes en infrastructures fiables et performantes.'
+    },
+    {
       icon: BarChart3,
       title: 'Analyse de Données',
       description: 'Traitement et visualisation de données avec Python et Power Bi, création de dashboards interactifs et insights métier.'
@@ -38,12 +43,7 @@ const About = () => {
       icon: Brain,
       title: 'Intelligence Artificielle',
       description: 'Implémentation de solutions IA, machine learning et automatisation intelligente pour optimiser les processus.'
-    },
-    {
-      icon: Code,
-      title: 'Développement Web',
-      description: 'Création d\'interfaces utilisateur modernes et réactives avec React, Next.js et TypeScript pour des expériences web optimales.'
-    },
+    }
   ];
 
   return (
@@ -60,8 +60,10 @@ const About = () => {
             <span className="bg-accent-gradient bg-clip-text text-transparent">À propos de moi</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Etudiant <span className="text-primary font-bold font-semibold">en recherche d'un Stage à partir d'Avril 2026</span>, je suis passionné par l’univers de la data, 
-            où je combine curiosité analytique et sens pratique pour transformer des données brutes en informations stratégiques.
+            Etudiant <span className="text-primary font-bold font-semibold">en recherche d'une Alternance à partir d'Octobre 2026</span>, Je suis passionné 
+            par l’univers de la <b>Data Engineering</b>, où je conçois et optimise des pipelines de données robustes afin de transformer des données brutes en
+             infrastructures fiables, performantes et exploitables pour la prise de décision stratégique.
+
           </p>
         </div>
 

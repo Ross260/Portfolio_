@@ -16,7 +16,7 @@ const Hero = () => {
   // Fonction pour télécharger le CV
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/certifs/Stage Data Analyst_Engineer.pdf";
+    link.href = "/certifs/Alternance_Data_Engineer_Octobre_2026.pdf";
     link.download = "Ross-Gildas-KETCHA-CV-DATA-&-IA.pdf"; 
     link.click();
   };
